@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
+
+.menu-cointainer{
+    height:3rem;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+}
+.font-style{
+     width:5%;
+    height:50%;
+}
+.font-family{
+    width:21%;
+    height:50%;
+}
+.bui-cointainer{
+    width:20%;
+    border:1px solid;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bui-cointainer *{
+    width: 30%;
+    height: 100%;
+}
+.sheets-list::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.active-btn{
+    background-color: brown;
+}
+.ali-cointainer{
+    width:20%;
+    border:1px solid
+}
+.ali-cointainer *{
+    width: 30%;
+    height: 100%;
+}
+.formula-cointainer{
+    height:2rem;
+    background-color: aquamarine;
+}
+.grid-cointainer{
+    height: calc(100vh - ( 4rem + 2rem + 2rem));
+    background-color:lightcyan;
+}
+.sheets-cointainer{
+    height:2rem;
+    background-color: lightcoral;
+    display: flex;
+}
+.add_sheets_btn-cointainer{
+    width:3rem;
+    border:1px solid;
+    height:100%;
+    padding-top: 5px;
+    padding-left: 6px;
+}
+.sheets-list{
+    min-width:calc( 100vw - ( 3rem));
+    border:1px solid;
+    display: flex;
+    overflow: auto;
+}
+.grid-cointainer{
+    overflow: auto;
+    position: relative;
+}
+.sheet{
+    width:5rem;
+    border:1px solid;
+    height:100%;
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+.active{
+    background-color: white;
+}
+
+.left_col{
+
+  z-index: 2px;
+  top:2rem;
+}
+.left_box{
+    background-color: gray;
+      /* position: fixed; */
+      
+      z-index: 3px;
+}
+
+.box{
+    height: 2rem;
+    text-align: center;
+    width: 2rem;
+    border: 2px solid;
+    text-align: center;
+}
+.top_row{
+    display:flex; 
+    overflow: auto;
+   position: absolute;
+   left: 2rem;
+   top: 0;
+   z-index: 2px;
+}
+.cells{
+    height:2rem;
+    min-width:5rem;
+    border: 2px solid;
+}
+.grid{
+    background-color:lightgreen;
+    /* height: 2rem; */
+    /* overflow: auto;  */
+    position: absolute;
+    top:2rem;
+    left: 2rem;
+}
+.rows{
+    height:2rem;
+    width:100%;
+    /* border: 2px solid red; */
+    display: flex;
+    /* overflow: auto; */
+}
+.cols{
+    height:100%;
+    min-width:5rem;
+    border: 1px solid;
+    
+}
+.formula-cointainer{
+    height:2rem;
+    background-color:violet;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.address-input{
+    width:4rem;
+    height:70%;
+
+}
+.formula-input{
+    width:calc( 100vw - 6rem);
+    height: 70%;
+}
